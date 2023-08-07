@@ -5,17 +5,25 @@
 }
 
 header{
-	background-image: white;
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+	/* background-image: white; */
+	height: 80px;
 }
+
+.main-container {
+	height: 100%;
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 
 ul{
 	float: center;
 	list-style-type: none;
-	margin-top: 25px;
+	/* margin-top: 25px; */
 }
 
 ul li {
@@ -25,9 +33,9 @@ ul li {
 
 ul li a {
 	text-decoration: none;
-	color: fff;
+	color: black;
 	padding: 5px 20px;
-	border: 1px solid 3fff;
+	border: 1px solid #fff;
 }
 
 .registration {
@@ -38,12 +46,29 @@ ul li a {
     color: white;
 }
 
+.section { 
+	margin-top: 50px;
+}
+
+.section-container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section .text {
+	margin-right: 70px;
+}
 
 
 
 
 
-@import url(https://fonts.googlepis.com/css2family=poppins:wght@200;300;400;500;600;700display-flex)
+
+@import url(https://fonts.googlepis.com/css2family=poppins:wght@200;300;400;500;600;700display-flex);
 *{
 	margin: 0;
 	padding: 0;
@@ -54,7 +79,7 @@ body{
 	height: 100vt;
 	justify-content: center;
 	align-items: center;
-    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    /* background: linear-gradient(135deg,#71b7e6,#9b59b6); */
     padding: 10px;
 
 }
