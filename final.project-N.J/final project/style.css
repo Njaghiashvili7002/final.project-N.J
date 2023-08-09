@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	/* background-image: white; */
+	height: 80px;
+}
+
+.main-container {
+	height: 100%;
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+ul{
+	float: center;
+	list-style-type: none;
+	/* margin-top: 25px; */
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+}
+
+.registration {
+	width: 66px;
+    height: 15px;
+    background-color: #2945FF;
+    border-radius: 20px;
+    color: white;
+}
+
+.section { 
+	margin-top: 50px;
+}
+
+.section-container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section .text {
+	margin-right: 70px;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+	float: center;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+ul li a {
+	text-decoration: none;
+	color: fff;
+	padding: 5px 20px;
+	border: 1px solid 3fff;
+}
+
+.registration {
+	width: 66px;
+    height: 15px;
+    background-color: #2945FF;
+    border-radius: 20px;
+    color: white;
+}
+
+@import url(https://fonts.googlepis.com/css2family=poppins:wght@200;300;400;500;600;700display-flex)
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+body{
+	height: 100vt;
+	justify-content: center;
+	align-items: center;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    padding: 10px;
+
+}
+
+.container{
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	padding: 25px 30px;
+	border: 5px;
+}
+.container .title{
+	font-size: 25px;
+	font-weight: 500;
+	position: relative;
+}
+.container .title::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+	background: liner-gradient(135deg, #71b7e6, 9b59b6);
+}
+.container from .user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+from .user-details .input-box{
+	margin: 2opx 0 12px 0;
+	width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.user-details .input-box input{
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   padding-left: 15 px;
+   font-size: 16px;
+   border-bottom-width: 2px;
+   transition: All 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:vaild{
+	border-color: #9b59b6;
+}
+form .gender-details /gender-title{
+	font-size: 20px;
+	font-weight: 500;
+
+}
+form .gender-details .category{
+	display: flex;
+	width: 80%;
+	margin: 14px 0;
+	justify-content: space-between;
+}
+
+.footer{
+	margin-top: 15px;
+	width: 100%;
+	padding: 100px 15%;
+    background: #FFF;
+    color: #000545;
+    display: flex;
+}
+.footer div{
+	text-align: center;
+}
+
+.col-2{
+	flex-grow: 2;
+}
+.footer div h3{
+	font-weight: 300;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+.col-1 a{
+	display: block;
+	text-decoration:none ;
+	margin-bottom: 10px;
+}
+
+
+.card-image{
+	position: relative;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+.card-image .card-img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.card-image .card-img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
